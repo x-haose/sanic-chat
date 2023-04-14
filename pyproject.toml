@@ -1,0 +1,18 @@
+[tool]
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "昊色居士", email = "xhrtxh@gmail"},
+]
+dependencies = [
+    "httpx>=0.24.0",
+    "cryptography>=40.0.1",
+    "sanic-api>=0.2.5",
+    "sanic-cors>=2.2.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
